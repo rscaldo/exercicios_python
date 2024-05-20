@@ -28,5 +28,5 @@ while i < len(frase):
 
 print(
   'A letra que apareceu mais vezes foi '
-  f'"{letra_apareceu_mais_vezes}" que apareceu {qtd_apareceu_mais_vezes}X'
+  f'"{letra_apareceu_mais_vezes}" que apareceu {qtd_apareceu_mais_vezes}x'
 )
