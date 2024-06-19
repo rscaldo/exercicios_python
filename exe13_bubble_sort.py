@@ -10,3 +10,13 @@ while swapped:
 
 
 print(my_list)
+
+my_list = [8, 10, 6, 2, 4]
+my_list.sort()
+print(my_list)
+my_list.reverse()
+print(my_list)
+
+my_list_2 = sorted(my_list)
+
+print(my_list_2)
