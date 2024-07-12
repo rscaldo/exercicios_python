@@ -8,7 +8,20 @@ Test your code using the data we've provided.
 
 """
 
-blocks = int(input("Insira o número de blocos:"))  
+def get_int(prompt):
+    while True:
+        try:
+            value = int(input(prompt))
+            if value <= 0:
+                print("The number must be a positive integer.")
+            else:
+                return value
+        except ValueError:
+            print("That's not a valid number. Please enter an integer.")
+
+
+blocks = get_int('Insira o número de blocos: ')
+
 
 altura = 0
  
